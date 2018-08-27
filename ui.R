@@ -78,7 +78,7 @@ shiny::h4("Sci. Transl. Med. 10, eaao2966 (2018).")
 tab.help = tabItem(tabName = "tab_help"    ,
   shiny::h3("Help"),
   shiny::p("The following Prezi tutorial will guide you through the use of the app."),
-  shiny::p("If you would prefer static help, please refer to the documentation after the tutorial. For any other queries, please email X@Y.Z."),
+  shiny::p("If you would prefer static help, please refer to the documentation after the tutorial. For any other queries, please email darragh<dot>duffy<at>pasteur<dot>fr."),
   
   shiny::tags$iframe(id="iframe_container", frameborder="0", webkitallowfullscreen="", mozallowfullscreen="", allowfullscreen="", width="1200", height="600", src="https://prezi.com/embed/qqyykar5efl7/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0NUVVeWZrU2VqaGJBOHFtNEJ0dDhNNS9nPT0&amp;landing_sign=cD6n7-11_vAerlKG1M9SxYYXtur2V3x4R8THUOYKYoE")
 )
